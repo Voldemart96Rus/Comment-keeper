@@ -1,0 +1,59 @@
+.App {
+    margin: 20px auto 0;
+    display: flex;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.add-comment {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.add-comment *:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.list-comment {
+    width: 50%;
+    padding: 20px;
+}
+
+h2 {
+    color: blueviolet;
+    margin-bottom: 0;
+}
+
+p {
+    color: chocolate;
+}
+
+.line {
+    content: '';
+    width: 100%;
+    margin: 10px 0;
+    border-top: solid 1px #818181;
+}
+
+span {
+    color: darkgray;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.right-bt {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
