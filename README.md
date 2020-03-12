@@ -17,7 +17,7 @@ npm start
 ```
 
 И открываем в браузере:  
-http://localhost:8080/
+http://localhost:3000/
 
 ### Доступные команды
 
